@@ -1,0 +1,117 @@
+.intro{
+max-width: 600px;
+display: inline;
+
+}
+body{
+background-image:url("bg.jpg");
+background-size:cover;
+color:white;
+}
+h1{
+font-size:50px;
+}
+
+button{
+margin-top:40px;
+width:20%;
+background-color:#fcdb96;
+margin-left:50px;
+padding:20px 0 20px 0;
+border:5px solid #fae6b2;
+font-size:20px;
+font-family:Cursive;
+}
+button:hover{
+background-color:#cce7e8;
+transition:0.5s;
+}
+
+.bio{
+display: inline-block;
+margin-top:200px;
+margin-left:50px; 
+}
+
+.text-slider-items {
+        display: none;
+    }
+.dp{
+float:right;
+width:30%;
+margin-top:20px;
+margin-right:120px;
+height:40%;
+}
+.dp:hover{
+opacity:0.6;
+transition:0.5s;
+
+}
+.button {
+  position: absolute;
+  width: 500px;
+  left:200;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+.dp:hover .button{
+opacity:0.6;
+}
+
+.head{
+font-family:'Brush Script MT';
+font-size:50px;
+text-align:center;
+margin-top:35px;
+}
+
+.green{
+width:1000px;
+height:400px;
+background-color:#e9ab73;
+margin-top:50px;
+margin-left:50px;
+border:5px double green;
+padding:50px 0 50px 50px;
+
+}
+
+img{
+height:50px;
+width:50px;
+margin:25px;
+}
+
+.icon{
+width:60px;
+height:400px;
+display:inline-block;
+}
+
+.det{
+color:black;
+width:300px;
+height:400px;
+float:right;
+display:inline-block;
+margin:10px 300px 0 0;
+}
+
+a{
+color:black;
+}
+
+a:hover{
+color:grey;
+}
